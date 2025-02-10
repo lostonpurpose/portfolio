@@ -1,0 +1,43 @@
+@import "bootstrap";
+
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    max-width: 1200px;
+    min-height: 100vh;
+    position: relative; 
+}
+
+.fixed-background {
+    background-color: rgb(131, 156, 181);
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-content {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.project-container {
+    border-radius: 50px;
+    background-color: rgb(232, 231, 231); /* Light gray background */
+    overflow: hidden; /* Prevents weird child element issues */
+    margin-top: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    opacity: 0.5;
+}
+
+.lop-pic {
+    object-position: 7% 50%;
+}
