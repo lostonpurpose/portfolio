@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    max-width: 1200px;
+    max-width: 1300px;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -26,10 +26,7 @@ body {
 .main-project {
     border-radius: 50px;
     overflow: hidden;
-    background-color: aliceblue;
     z-index: 1;
-    padding-left: 8%;
-    padding-right: 8%;
     display: flex;
     justify-content: center;
     margin-top: 75vh;
@@ -37,13 +34,10 @@ body {
 }
 
 .all-content {
-    
-    
+    background-color: rgb(232, 231, 231); 
 }
 
 .project-container {
-    
-    background-color: rgb(232, 231, 231);   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,8 +45,20 @@ body {
 
 .icons {
     opacity: 0.5;
+    margin-top: 30px;
 }
 
 .lop-pic {
-    object-position: 7% 50%;
+    object-position: 4% 50%;
+}
+
+.js-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
