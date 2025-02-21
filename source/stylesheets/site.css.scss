@@ -9,11 +9,9 @@ body {
     display: flex;
 }
 
-
 .main-container {
     max-width: 1200px;
     min-height: 100vh;
-    position: relative; 
 }
 
 .fixed-background {
@@ -25,23 +23,25 @@ body {
 }
 
 .main-project {
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: aliceblue;
+    z-index: 1;
+    padding-left: 8%;
+    padding-right: 8%;
     display: flex;
     justify-content: center;
+    margin-top: 75vh;
 }
 
 .all-content {
-    padding-left: 8%;
-    padding-right: 8%;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
+    
+    
 }
 
 .project-container {
-    border-radius: 50px;
-    background-color: rgb(232, 231, 231); /* Light gray background */
-    overflow: hidden; /* Prevents weird child element issues */
-    margin-top: 75vh;
+    
+    background-color: rgb(232, 231, 231);   
     display: flex;
     flex-direction: column;
     align-items: center;
