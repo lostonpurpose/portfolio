@@ -4,12 +4,17 @@ body {
     scroll-behavior: smooth;
     display: flex;
     box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
 }
 
 .main-container {
     max-width: 1200px;
     min-height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .fixed-background {
