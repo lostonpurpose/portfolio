@@ -9,7 +9,7 @@
 }
 
 /* Hide the images by default */
-.mySlides2, .mySlides3 {
+.mySlides1, .mySlides2, .mySlides3 {
   display: none;
 }
 
@@ -20,7 +20,7 @@
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 4px;
   color: white;
   font-weight: bold;
   font-size: 18px;

@@ -1,5 +1,5 @@
 var slideIndex = []; // This will be automatically populated
-var slideId = ["mySlides2", "mySlides3"];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"];
 initialiseSlides();
 showSlides(1, 0);
 showSlides(1, 1);
