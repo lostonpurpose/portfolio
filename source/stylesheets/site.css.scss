@@ -19,6 +19,7 @@ body {
 
 .main-title {
     font-size: 52px;
+    text-decoration: underline;
 }
 
 .fixed-background {
@@ -59,7 +60,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 }
 
 .row {
@@ -67,7 +67,10 @@ body {
     flex-direction: row;
     padding-left: 20px;
     padding-right: 20px;
+}
 
+.js-projects-title {
+    text-decoration: underline;
 }
 
 .divider {
