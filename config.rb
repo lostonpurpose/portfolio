@@ -7,7 +7,8 @@ end
 
 # activate :sassc
 activate :directory_indexes
-activate :sprockets
+activate :sprocketsm
+activate :relative_assets #chatgpt change...
 
 
 # Layouts
@@ -49,3 +50,8 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript, compressor: Terser.new
 # end
+
+# This will make sure paths work when deployed to GitHub Pages - from chatgpt
+activate :asset_host do |config|
+  config.host = "https://lostonpurpose.github.io"
+end
