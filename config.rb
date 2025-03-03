@@ -7,7 +7,7 @@ end
 
 # activate :sassc
 activate :directory_indexes
-activate :sprocketsm
+activate :sprockets
 activate :relative_assets #chatgpt change...
 
 
@@ -54,4 +54,10 @@ page '/*.txt', layout: false
 # This will make sure paths work when deployed to GitHub Pages - from chatgpt
 activate :asset_host do |config|
   config.host = "https://lostonpurpose.github.io"
+end
+#also from idiot chatgpt
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote = 'origin'      # Make sure the remote is set correctly
+  deploy.branch = 'gh-pages'    # Deploy to the 'gh-pages' branch
 end
