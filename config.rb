@@ -8,6 +8,7 @@ end
 # activate :sassc
 activate :directory_indexes
 activate :sprockets
+activate :relative_assets #chatgpt change...
 
 
 # Layouts
@@ -49,3 +50,4 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript, compressor: Terser.new
 # end
+
