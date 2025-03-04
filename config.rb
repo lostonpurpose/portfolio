@@ -10,7 +10,7 @@
   activate :sprockets
   activate :relative_assets
   set :relative_links, true
-  # set :http_prefix, "/portfolio"  # Ensure this matches your GitHub repo name
+  set :http_prefix, "/"  # Ensure this matches your GitHub repo name
 
 
 
