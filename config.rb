@@ -54,4 +54,4 @@
   #   activate :minify_javascript, compressor: Terser.new
   # end
 
-  set :url_root, "https://lostonpurpose.github.io/portfolio"
+  # set :url_root, "https://lostonpurpose.github.io/portfolio"
