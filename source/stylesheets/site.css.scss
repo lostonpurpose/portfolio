@@ -82,3 +82,17 @@ body {
     margin-right: auto;
     margin-top: 80px !important;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .main-project {
+        border-radius: 12px;
+        overflow: hidden;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        margin-top: 50vh;
+    }
+
+}
