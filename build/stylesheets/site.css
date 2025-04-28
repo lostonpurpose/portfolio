@@ -71,6 +71,11 @@ body {
        object-position: 2% 50%;
 }
 
+.dna-pic {
+    -o-object-position: 22% 50%;
+       object-position: 22% 50%;
+}
+
 .js-container {
     display: flex;
     flex-direction: column;
