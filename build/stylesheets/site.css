@@ -76,6 +76,15 @@ body {
        object-position: 22% 50%;
 }
 
+.biome {
+    -o-object-position: 99% 50%;
+       object-position: 99% 50%;
+}
+.biome2 {
+    -o-object-position: 0% 50%;
+       object-position: 0% 50%;
+}
+
 .js-container {
     display: flex;
     flex-direction: column;
