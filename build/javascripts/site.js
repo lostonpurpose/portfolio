@@ -1,10 +1,13 @@
 var slideIndex = []; // This will be automatically populated
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]; // don't forget this!
 initialiseSlides();
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2); // Note that this is set to 1 now
 showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+
 
 // Initalise all starting slide indexes
 function initialiseSlides(){
