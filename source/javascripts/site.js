@@ -1,5 +1,5 @@
 var slideIndex = []; // This will be automatically populated
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]; // don't forget this!
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7"]; // add seventh slot for FlashCast
 initialiseSlides();
 showSlides(1, 0);
 showSlides(1, 1);
@@ -7,7 +7,7 @@ showSlides(1, 2); // Note that this is set to 1 now
 showSlides(1, 3);
 showSlides(1, 4);
 showSlides(1, 5);
-showSlides(1, 6); // FlashCast
+showSlides(1, 6); // FlashCast (new index)
 
 
 // Initalise all starting slide indexes
