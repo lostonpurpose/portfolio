@@ -7,6 +7,7 @@ showSlides(1, 2); // Note that this is set to 1 now
 showSlides(1, 3);
 showSlides(1, 4);
 showSlides(1, 5);
+showSlides(1, 6); // FlashCast
 
 
 // Initalise all starting slide indexes
