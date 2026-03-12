@@ -22,6 +22,13 @@
   page '/*.json', layout: false
   page '/*.txt', layout: false
 
+
+  # using doc folder to simplify updating site
+  set :build_dir, 'docs'
+
+
+
+
   # With alternative layout
   # page '/path/to/file.html', layout: 'other_layout'
 
